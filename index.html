@@ -11,15 +11,66 @@
         		<li><a href="/">Research</a></li>
 	        	<li><a href="https://www.linkedin.com/in/sunny0/">LinkedIn</a></li>
         		<li><a href="https://github.com/prabuddha1">GitHub</a></li>
+			<li><a href="https://scholar.google.com/citations?user=zzXy8kgAAAAJ&hl=en&oi=ao">Google Scholar</a></li>
         		
     		</ul>
 		</nav>
 		<div class="container">
     		<div class="blurb">
-        		<h1>SAIL: Machine Learning Guided Structural Analysis Attack on Hardware Obfuscation</h1>
+        		<h3>SAIL: Machine Learning Guided Structural Analysis Attack on Hardware Obfuscation</h3>
 				<p>Obfuscation is a technique for protectinghardware intellectual property (IP) blocks againstreverse engineering, piracy, and malicious modifica-tions. Current obfuscation efforts mainly focus onfunctional locking of a design to prevent black-boxusage. They do not directly address hiding designintent through structural transformations, which isan important objective of obfuscation. We note thatcurrent obfuscation techniques incorporate only: (1)local, and (2) predictable changes in circuit topology.In this paper, we present SAIL, a structural attackon obfuscation using machine learning (ML) modelsthat exposes a critical vulnerability of these meth-ods. Through this attack, we demonstrate that thegate-level structure of an obfuscated design can beretrieved in most parts through a systematic set ofsteps. The proposed attack is applicable to all formsof logic obfuscation, and significantly more powerfulthan existing attacks, e.g., SAT-based attacks, sinceit does not require the availability of golden func-tional responses (e.g. an unlocked IC). Evaluationon benchmark circuits show that we can recover anaverage of around 84% (up to 95%) transformationsintroduced by obfuscation. We also show that thisattack is scalable,flexible, and versatile. </a></p>
     		</div><!-- /.blurb -->
 		</div><!-- /.container -->
+
+		<div class="container">
+    		<div class="blurb">
+        		<h3>Hardware IP trust validation: Learn (the untrustworthy), and verify</h3>
+				<p>Increasing reliance on hardware Intellectual Property (IP) cores in modern system-on-chip (SoC) design flow, often obtained from untrusted vendors distributed across the globe, can significantly compromise the security of SoCs. While the design could be verified for a specified functionality using existing tools, it is extremely hard to verify its trustworthiness to guarantee that no hidden, and possibly malicious function exists in the form of a hardware Trojan. Conventional verification process and tools fail to verify the trust of a third-party IP, primarily due to the lack of trusted reference design or golden models. In this paper, for the first time to our knowledge, we introduce a systematic framework to apply machine learning based classification for hardware IP trust verification. A supervised classifier could be trained for identifying Trojan nets within a suspect IP, but the detection coverage and accuracy are extremely sensitive to the quality of training set available. Furthermore, reliance on a static training database limits the classifier's ability in detecting new Trojans and facilitates adversarial learning. The proposed framework includes a Trojan insertion tool that dynamically generates a large number of diverse implementations of Trojan classes for creating a robust training set. It is significantly more difficult for an adversary to evade our classifier using known Trojan classes since the tool dynamically samples the entire Trojan population. To further improve the efficiency of the system, we combined three machine learning models into an average probability Voting Ensemble. Our results for two broad classes of Trojan show excellent classification accuracy of 99.69% and 99.88% with F-score of 86.69% and 88.37% for sequential and combinational Trojans, respectively. </a></p>
+    		</div><!-- /.blurb -->
+		</div><!-- /.container -->
+
+
+		<div class="container">
+    		<div class="blurb">
+        		<h3>SAIL: Machine Learning Guided Structural Analysis Attack on Hardware Obfuscation</h3>
+				<p>Obfuscation is a technique for protectinghardware intellectual property (IP) blocks againstreverse engineering, piracy, and malicious modifica-tions. Current obfuscation efforts mainly focus onfunctional locking of a design to prevent black-boxusage. They do not directly address hiding designintent through structural transformations, which isan important objective of obfuscation. We note thatcurrent obfuscation techniques incorporate only: (1)local, and (2) predictable changes in circuit topology.In this paper, we present SAIL, a structural attackon obfuscation using machine learning (ML) modelsthat exposes a critical vulnerability of these meth-ods. Through this attack, we demonstrate that thegate-level structure of an obfuscated design can beretrieved in most parts through a systematic set ofsteps. The proposed attack is applicable to all formsof logic obfuscation, and significantly more powerfulthan existing attacks, e.g., SAT-based attacks, sinceit does not require the availability of golden func-tional responses (e.g. an unlocked IC). Evaluationon benchmark circuits show that we can recover anaverage of around 84% (up to 95%) transformationsintroduced by obfuscation. We also show that thisattack is scalable,flexible, and versatile. </a></p>
+    		</div><!-- /.blurb -->
+		</div><!-- /.container -->
+
+
+		<div class="container">
+    		<div class="blurb">
+        		<h3>SURF: Joint structural functional attack on logic locking</h3>
+				<p>To help protect hardware Intellectual Property (IP) blocks against piracy and reverse engineering, researchers have proposed various obfuscation techniques that aim at hiding design intent and making black-box usage difficult. A dominant form of obfuscation, referred to as logic locking, relies on the insertion of key gates (e.g., XOR/XNOR) at strategic locations in a design followed by logic synthesis. Recently, it has been shown that such an approach leaves predictable structural signatures, which make them susceptible to machine learning (ML) based structural attacks. These attacks are shown to deobfuscate a design by learning the deterministic nature of transformations incorporated by commercial synthesis tools. They are attractive for unraveling the design intent. However, they may not be able to provide a working design. In this paper, we introduce a novel attack on obfuscation techniques, called Structural Functional (SURF) attack, which, for the first time to our knowledge, accomplishes key extraction through scalable functional analysis while leveraging the output of structural attacks. We have developed complete flow and an automatic tool for the attack, which shows promising results. We are able to retrieve, on average, ~90% keybits for obfuscated ISCAS-85 benchmarks (100% in several cases) with > 98% output accuracy. We observe that SURF attack, unlike any known attack, can enable both discovering design intent as well as black-box usage. It is effective for all major variants of logic locking; scalable to large designs; and unlike SAT based attacks, is effective for all design types (e.g., multipliers, where SAT based attacks typically fail). </a></p>
+    		</div><!-- /.blurb -->
+		</div><!-- /.container -->
+
+
+		<div class="container">
+    		<div class="blurb">
+        		<h3>Leveraging Domain Knowledge using Machine Learning for Image Compression in Internet-of-Things</h3>
+				<p>The emergent ecosystems of intelligent edge devices in diverse Internet of Things (IoT) applications, from automatic surveillance to precision agriculture, increasingly rely on recording and processing variety of image data. Due to resource constraints, e.g., energy and communication bandwidth requirements, these applications require compressing the recorded images before transmission. For these applications, image compression commonly requires: (1) maintaining features for coarse-grain pattern recognition instead of the high-level details for human perception due to machine-to-machine communications; (2) high compression ratio that leads to improved energy and transmission efficiency; (3) large dynamic range of compression and an easy trade-off between compression factor and quality of reconstruction to accommodate a wide diversity of IoT applications as well as their time-varying energy/performance needs. To address these requirements, we propose, MAGIC, a novel machine learning (ML) guided image compression framework that judiciously sacrifices visual quality to achieve much higher compression when compared to traditional techniques, while maintaining accuracy for coarse-grained vision tasks. The central idea is to capture application-specific domain knowledge and efficiently utilize it in achieving high compression. We demonstrate that the MAGIC framework is configurable across a wide range of compression/quality and is capable of compressing beyond the standard quality factor limits of both JPEG 2000 and WebP. We perform experiments on representative IoT applications using two vision datasets and show up to 42.65x compression at similar accuracy with respect to the source. We highlight low variance in compression rate across images using our technique as compared to JPEG 2000 and WebP.</a></p>
+    		</div><!-- /.blurb -->
+		</div><!-- /.container -->
+
+
+		<div class="container">
+    		<div class="blurb">
+        		<h3>P2C2: Peer-to-Peer Car Charging</h3>
+				<p>With the rising concerns of fossil fuel depletion and the impact of Internal Combustion Engine (ICE) vehicles on our climate, the transportation industry is observing a rapid proliferation of electric vehicles (EVs). However, long-distance travel withEV is not possible yet without making multiple halt at EV charging stations. Many remote regions do not have charging stations, and even if they are present, it can take several hours to recharge the battery. Conversely, ICE vehicle fueling stations are much more prevalent, and re-fueling takes a couple of minutes. These facts have deterred many from moving to EVs. Existing solutions to these problems, such as building more charging stations, increasing battery capacity, and road-charging have not been proven efficient so far. In this paper, we propose Peer-to-Peer Car Charging (P2C2), a highly scalable novel technique for charging EVs on the go with minimal cost overhead. We allow EVs to share charge among each others based on the instructions from a cloud-based control system. The control system assigns and guides EVs for charge sharing. We also introduce mobile Charging Stations (MoCS), which are high battery capacity vehicles that are used to replenish the overall charge in the vehicle networks. We have implemented P2C2 and integrated it with the traffic simulator, SUMO. We observe promising results with up to 65% reduction in the number of EV halts with up to 24.4% reduction in required battery capacity without any extra halts. </a></p>
+    		</div><!-- /.blurb -->
+		</div><!-- /.container -->
+
+
+
+		<div class="container">
+    		<div class="blurb">
+        		<h3>Learning to Estimate Pose by Watching Videos</h3>
+				<p>In this paper we propose a technique for obtaining coarse pose estimation of humans in an image that does not require any manual supervision. While a general unsupervised technique would fail to estimate human pose, we suggest that sufficient information about coarse pose can be obtained by observing human motion in multiple frames. Specifically, we consider obtaining surrogate supervision through videos as a means for obtaining motion based grouping cues. We supplement the method using a basic object detector that detects persons. With just these components we obtain a rough estimate of the human pose.
+With these samples for training, we train a fully convolutional neural network (FCNN)[20] to obtain accurate dense blob based pose estimation. We show that the results obtained are close to the ground-truth and to the results obtained using a fully supervised convolutional pose estimation method [31] as evaluated on a challenging dataset [15]. This is further validated by evaluating the obtained poses using a pose based action recognition method [5]. In this setting we outperform the results as obtained using the baseline method that uses a fully supervised pose estimation algorithm and is competitive with a new baseline created using convolutional pose estimation with full supervision. </a></p>
+    		</div><!-- /.blurb -->
+		</div><!-- /.container -->
+		
 		<footer>
     		<ul>
         		<li><a href="mailto:p.chakraborty@ufl.edu">email</a></li>
